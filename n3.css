@@ -1,0 +1,181 @@
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
+
+input, button {
+    font-size: 1em;
+}
+
+
+.NETFLIX {
+    background: #000;
+    padding: 10px 0;
+}
+
+.NETFLIX .btn {
+    margin-left: 10px;
+}
+
+
+.bc1{
+    text-align: center;
+    padding: 40px ;
+    background-image: url(/bc\ img\ new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.bc2 h1,.bc3 h1,.bc4 h1,.bc5 h1 {
+    font-size: 3.5em;
+    margin-top: 150px;
+
+}
+
+.bc2 p,.bc3 p,.bc4 p,.bc5 p {
+    font-size: 1.5em;
+}
+
+.bc1 input {
+    width: calc(100% - 120px);
+    margin-right: 10px;
+}
+
+.bc1 button {
+    width: 100px;
+}
+.bc1 h1{
+ font-weight: 800;
+}
+
+
+.bc1, .bc2, .bc3, .bc4, .bc5,.bc6 {
+
+    background-color: black;
+    padding: 40px 15px;
+    color: white;
+    
+}
+
+.bc2 img, .bc3 img, .bc4 img {
+    width: 100%;
+}
+
+.fp{
+    height: 50px;  
+    width: 100%; 
+    background-color: black;   
+    color: white;
+}
+    
+
+.cls{
+    background-color: #303030;
+    height: 10px;
+    width: 100%;
+}
+
+
+.bc5 select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bc5 h3 {
+    margin-top: 20px;
+}
+#mail{
+    width: 20%;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  
+}
+#btn{
+    border-radius: 5px;
+}
+.m{
+    width: 20%;
+    height: 10%;
+    background-color: transparent;
+    margin: 0%;
+    border-radius: 5px;
+}
+.nnn{
+    width: 20%;
+    height: 20%;
+    margin-left: 60%;
+    margin: 0%;
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+.bc6 h3{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .bc1 input {
+        width: 250px;
+    }
+
+    .bc1 button {
+        width: 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bc1 h1 {
+        font-size: 3em;
+    }
+
+    .bc1 p {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    .bc1 input {
+        width: 100px;
+    }
+
+    .bc1 button {
+        width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bc1 {
+        padding: 60px 0;
+    }
+
+    .bc1 h1 {
+        font-size: 4em;
+    }
+
+    .bc1 p {
+        font-size: 2em;
+    }
+}
